@@ -132,6 +132,13 @@ def make_random_circles(count: int):
         count -= 1
     return circles_list
 
+def intersect_circle(circles_list, given_circle):
+    for circle in circles_list:
+        if given_circle(2)
+    if len(list_of_intersecting_circles) != 0:
+        return list_of_intersecting_circles
+    else:
+        return 0
 
 def add_circle(circles_list: list, new_circle):
     """
